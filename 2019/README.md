@@ -7,18 +7,16 @@
 ![](http://i.imgur.com/bYSHUdx.png)
 
 * [크롬 다운로드](https://www.google.com/chrome?hl=ko)
-* [크롬 개발자 도구](https://developers.google.com/chrome-developer-tools)
 
 ## 에디터
 
 ![](https://i.imgur.com/sMimClE.png)
 
 * [VisualStudio Code](https://code.visualstudio.com/)
-* javascript로 만들어진 (node.js)
 
 ## git
 
-* https://github.com/advanced-webapps-class
+* https://github.com/basic-webapps-class/classroom
 * [window client 설치](https://windows.github.com/)
 * 레파지토리 만들기
 * git commit
@@ -29,7 +27,5 @@
 
 ![](http://i.imgur.com/oGxW6qq.png)
 * [nodejs 설치](https://nodejs.org/ko/)
-* Chrome's JavaScript runtime
-* backend 플랫폼
 * `npm install serve -g`  웹서버 설치
 	* [serve](https://github.com/tj/serve)
