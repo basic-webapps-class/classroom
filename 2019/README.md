@@ -28,7 +28,7 @@
 ## Node.js
 
 ![](http://i.imgur.com/oGxW6qq.png)
-
+* [nodejs 설치](https://nodejs.org/ko/)
 * Chrome's JavaScript runtime
 * backend 플랫폼
 * `npm install serve -g`  웹서버 설치
