@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Layout Example</title>
+  <style>
+      html, body {margin:0; padding:0; height:100%;}
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      align-content: stretch;
+      width:100%;
+      height: 100%;
+      background: #60B99A;
+      
+    }
+
+    .flex-item {   
+      
+      height: 100px;       
+      text-align: center;      
+      color: #000;      
+      background: #4584b1;
+    }
+
+    .foot {
+      margin-top: auto;
+    }
+
+    .body {
+      flex-basis: 100%;      
+      background-color:antiquewhite; 
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+      <div class="flex-item ">header</div> 
+      <div class="flex-item body">body</div>            
+      <div class="flex-item foot">footer</div>    
+  </div>
+</body>
+</html>

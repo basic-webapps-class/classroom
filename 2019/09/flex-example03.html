@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Flexbox Layout Example</title>
+  <style>
+      html, body {margin:0; padding:0; height:100%;}
+    .flex-container {
+      display: flex;
+      height: 80px;
+      padding-left: 8px;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,0.1);
+      background: #60B99A;
+    }
+
+    .flex-item {   
+      flex: 0 1 auto;
+      overflow:hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      height: 40px;
+      padding: 8px;
+      background-color: white;
+      margin: 20px;
+      box-sizing: border-box;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="flex-container">
+      <div class="flex-item">유동 넓이 박스</div>
+      <div class="flex-item">유동 넓이 박스, 유동 넓이 박스</div>
+      <div class="flex-item">유동 넓이 박스, 유동 넓이 박스, 유동 넓이 박스</div>
+      <div class="flex-item">유동 넓이 박스, 유동 넓이 박스, 유동 넓이 박스, 유동 넓이 박스</div>
+      
+  </div>
+</body>
+</html>
